@@ -1,0 +1,10 @@
+name: TaxCollector
+version: 0.1
+author: Wolinski Piotr
+main: com.gmail.wolinskip.taxcollector.TaxCollector
+depend: [Vault]
+softdepend: [Spout]
+permissions:
+ taxcollector.immunity:
+  description: Gives tax immunity to player
+  default: op
