@@ -1,10 +1,15 @@
 name: TaxCollector
-version: 0.1
+version: 1.1
 author: Wolinski Piotr
 main: com.gmail.wolinskip.taxcollector.TaxCollector
 depend: [Vault]
-softdepend: [Spout]
 permissions:
  taxcollector.immunity:
   description: Gives tax immunity to player
+  default: op
+ taxcollector.signs.create:
+  description: Allows player to create sign with tax counter
+  default: op
+ taxcollector.signs.refresh:
+  description: Allows player to refresh sign data on right click
   default: op
